@@ -3,6 +3,7 @@ public class Food {
 	private String category;
 	private boolean isChildFriendly;
 	private double price;
+	private String brand;
 	
 	public Food(String category,boolean isChildFriendly,double price)
 	{
@@ -20,9 +21,6 @@ public class Food {
 	{
 		return this.isChildFriendly;
 	}
-	public double getPrice()
-	{
-		return this.price;
-	}
+
 
 }
